@@ -1,0 +1,31 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" rx="48" fill="url(#paint0_radial_1_2)"/>
+  <defs>
+    <radialGradient id="paint0_radial_1_2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(240 84) rotate(28.3) scale(1136 680)">
+      <stop stop-color="#60A5FA"/>
+      <stop offset="0.45" stop-color="#1F2937"/>
+      <stop offset="1" stop-color="#0F172A"/>
+    </radialGradient>
+  </defs>
+  <g filter="url(#filter0_f_1_2)">
+    <ellipse cx="900" cy="120" rx="220" ry="180" fill="#A855F7" fill-opacity="0.35"/>
+  </g>
+  <g filter="url(#filter1_f_1_2)">
+    <ellipse cx="300" cy="480" rx="260" ry="200" fill="#38BDF8" fill-opacity="0.35"/>
+  </g>
+  <text x="120" y="200" fill="white" font-family="'Inter', 'Segoe UI', sans-serif" font-size="92" font-weight="700">Assist AI Studio</text>
+  <text x="120" y="280" fill="#D1D5DB" font-family="'Inter', 'Segoe UI', sans-serif" font-size="32" font-weight="400">Launch, monitor, and scale intelligent experiences with confidence.</text>
+  <rect x="120" y="330" width="420" height="200" rx="32" fill="rgba(15,23,42,0.65)" stroke="rgba(148,163,184,0.2)"/>
+  <text x="160" y="390" fill="#F8FAFC" font-family="'Inter', 'Segoe UI', sans-serif" font-size="28" font-weight="600">Live metrics</text>
+  <text x="160" y="430" fill="#CBD5F5" font-family="'Inter', 'Segoe UI', sans-serif" font-size="20" font-weight="400">Requests/min: 12.4k</text>
+  <text x="160" y="470" fill="#CBD5F5" font-family="'Inter', 'Segoe UI', sans-serif" font-size="20" font-weight="400">Success rate: 99.2%</text>
+  <text x="160" y="510" fill="#CBD5F5" font-family="'Inter', 'Segoe UI', sans-serif" font-size="20" font-weight="400">Avg latency: 320ms</text>
+  <defs>
+    <filter id="filter0_f_1_2" x="580" y="-160" width="640" height="560" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="60"/>
+    </filter>
+    <filter id="filter1_f_1_2" x="0" y="200" width="600" height="560" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="60"/>
+    </filter>
+  </defs>
+</svg>

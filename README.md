@@ -41,6 +41,19 @@ assig-ai-tut/
 pip install -r requirements.txt
 ```
 
+### Frontend (Next.js) Setup
+
+The repository now includes a modern Next.js 14 interface in the project root.
+
+```bash
+npm install
+npm run dev
+```
+
+Set the backend API location with the `NEXT_PUBLIC_API_BASE_URL` environment variable (see `.env.example`). By default it targets the hosted Render deployment at `https://career-recommender-api-gpbq.onrender.com`.
+
+The app is production-ready for Vercel deployments and lives in the `app/`, `components/`, and `lib/` directories.
+
 ### Run Data Preprocessing & Model Training
 
 ```bash
