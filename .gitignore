@@ -10,7 +10,10 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
+# Allow frontend TypeScript utilities under lib/
+lib/**
+!lib/**/*.ts
+!lib/**/*.tsx
 lib64/
 parts/
 sdist/

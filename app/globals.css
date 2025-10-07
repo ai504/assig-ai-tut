@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 222 47% 11%;
+  --foreground: 213 31% 91%;
+
+  --card: 222 47% 13%;
+  --card-foreground: 213 31% 91%;
+
+  --popover: 222 47% 13%;
+  --popover-foreground: 213 31% 91%;
+
+  --primary: 221 83% 53%;
+  --primary-foreground: 210 40% 98%;
+
+  --secondary: 222 26% 23%;
+  --secondary-foreground: 210 40% 98%;
+
+  --muted: 223 23% 19%;
+  --muted-foreground: 215 20% 65%;
+
+  --accent: 217 91% 60%;
+  --accent-foreground: 210 40% 98%;
+
+  --destructive: 0 62% 50%;
+  --destructive-foreground: 210 40% 98%;
+
+  --border: 216 34% 17%;
+  --input: 216 34% 17%;
+  --ring: 221 83% 53%;
+
+  --radius: 1rem;
+}
+
+.light {
+  --background: 210 40% 98%;
+  --foreground: 222 47% 11%;
+
+  --card: 0 0% 100%;
+  --card-foreground: 222 47% 11%;
+
+  --popover: 0 0% 100%;
+  --popover-foreground: 222 47% 11%;
+
+  --primary: 221 83% 53%;
+  --primary-foreground: 210 40% 98%;
+
+  --secondary: 210 40% 96%;
+  --secondary-foreground: 222 47% 11%;
+
+  --muted: 210 40% 96%;
+  --muted-foreground: 222 8% 39%;
+
+  --accent: 221 83% 65%;
+  --accent-foreground: 222 47% 11%;
+
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 210 40% 98%;
+
+  --border: 214 32% 91%;
+  --input: 214 32% 91%;
+  --ring: 221 83% 53%;
+}
+
+body {
+  @apply bg-background text-foreground;
+}
+
+* {
+  @apply border-border;
+}
+
+.glass-panel {
+  @apply rounded-3xl border border-white/10 bg-white/10 p-6 backdrop-blur-xl shadow-[0_20px_50px_rgba(8,_112,_184,_0.2)];
+}
+
+.hero-gradient {
+  background-image: radial-gradient(
+      circle at top left,
+      rgba(59, 130, 246, 0.35),
+      transparent 55%
+    ),
+    radial-gradient(circle at bottom right, rgba(147, 51, 234, 0.25), transparent 55%);
+}
+
+.card-gradient {
+  background: linear-gradient(
+      140deg,
+      rgba(255, 255, 255, 0.07),
+      rgba(59, 130, 246, 0.09)
+    ),
+    rgba(15, 23, 42, 0.75);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, rgba(59, 130, 246, 0.4), rgba(147, 51, 234, 0.4));
+  border-radius: 9999px;
+}
